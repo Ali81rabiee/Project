@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+.mycard {
+  display: grid;
+  grid-template-columns: repeat(5, 15rem);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto 1rem;
+  padding: 2rem 1rem;
+  background-color: lightgrey;
+  width: 75rem;
+  border-radius: 1rem;
+}
